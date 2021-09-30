@@ -1,0 +1,444 @@
+boody {
+	margin:0;
+	padding:0;
+	/*background:#f1f1f1;*/
+	
+	
+}
+
+/*Left Column Row 1 Add Student Button */
+
+#h1{
+	
+	color : white;
+	font-size : 30px;
+	
+}
+
+#btn1{
+	width:300px;
+	height:100px;
+	position:absolute;
+	top:60%;
+	left:16%;
+	transform:translate(-50%,-50%);
+	cursor:pointer;
+	border-radius:5px;
+	overflow:hidden;
+	display:inline-block;
+	line-height:120%;
+	background-color: rgba(0, 0, 0, 0.5);
+	
+	
+}
+#btn1:before{
+  color: #c1f01d;
+  font-family: sans-serif;
+  content: 'Add Student';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  transition: all 0.5s;
+}
+#btn1:hover:before{
+  top: -30px;
+}
+#btn1:after{
+  font-family: 'Ionicons';
+  content: '\f357';
+  font-size: 96px;
+  color: #c1f01d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 140%;
+  transition: all 0.5s;
+}
+#btn1:hover:after{
+  top: 50%;
+
+}
+
+/*Left Column Row 2 Edit Marks Button */
+
+#btn4{
+	width:300px;
+	height:100px;
+	position:absolute;
+	top:80%;
+	left:16%;
+	transform:translate(-50%,-50%);
+	background:#ffc107;
+	cursor:pointer;
+	border-radius:5px;
+	overflow:hidden;
+	background-color: rgba(0, 0, 0, 0.5);
+	
+}
+#btn4:before{
+  color: #c1f01d;
+  font-family: sans-serif;
+  content: 'Edit Marks';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  transition: all 0.5s;
+}
+#btn4:hover:before{
+  top: -30px;
+}
+#btn4:after{
+  font-family: 'Ionicons';
+  content: '\f2a5';
+  font-size: 85px;
+  color: #c1f01d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 140%;
+  transition: all 0.5s;
+}
+#btn4:hover:after{
+  top: 50%;
+}
+
+/*Left Column Row 3 Edit Teacher Details Button */
+
+#btn5{
+	width:300px;
+	height:100px;
+	position:absolute;
+	top:100%;
+	left:16%;
+	transform:translate(-50%,-50%);
+	background:#ffc107;
+	cursor:pointer;
+	border-radius:5px;
+	overflow:hidden;
+	background-color: rgba(0, 0, 0, 0.5);
+	
+}
+#btn5:before{
+  color: #c1f01d;
+  font-family: sans-serif;
+  content: 'Edit Teacher Details';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  text-align:center;
+  transition: all 0.5s;
+}
+#btn5:hover:before{
+  top: -30px;
+}
+#btn5:after{
+  font-family: 'Ionicons';
+  content: '\f24e';
+  font-size: 80px;
+  color: #c1f01d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 140%;
+  transition: all 0.5s;
+}
+#btn5:hover:after{
+  top: 50%;
+}
+
+/*Left Column Row 4 View All Teachers Button */
+
+#btn6{
+	width:300px;
+	height:100px;
+	position:absolute;
+	top:120%;
+	left:16%;
+	transform:translate(-50%,-50%);
+	background:#ffc107;
+	cursor:pointer;
+	border-radius:5px;
+	overflow:hidden;
+	background-color: rgba(0, 0, 0, 0.5);
+	
+}
+#btn6:before{
+  color: #c1f01d;
+  font-family: sans-serif;
+  content: 'View All Teachers';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  text-align:center;
+  transition: all 0.5s;
+}
+#btn6:hover:before{
+  top: -30px;
+}
+#btn6:after{
+  font-family: 'Ionicons';
+  content: '\f133';
+  font-size: 96px;
+  color: #c1f01d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 140%;
+  transition: all 0.5s;
+}
+#btn6:hover:after{
+  top: 50%;
+}
+
+/*Right Column Row 1 Add Teacher Button */
+
+#btn2{
+	width:300px;
+	height:100px;
+	position:absolute;
+	top:60%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background:#ffc107;
+	cursor:pointer;
+	border-radius:5px;
+	overflow:hidden;
+	background-color: rgba(0, 0, 0, 0.5);
+	
+}
+#btn2:before{
+  color: #c1f01d;
+  font-family: sans-serif;
+  content: 'Add Teacher';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  transition: all 0.5s;
+}
+#btn2:hover:before{
+  top: -30px;
+}
+#btn2:after{
+  font-family: 'Ionicons';
+  content: '\f26c';
+  font-size: 96px;
+  color: #c1f01d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 140%;
+  transition: all 0.5s;
+}
+#btn2:hover:after{
+  top: 50%;
+}
+
+/*Right Column Row 2 Edit Student Details Button */
+
+#btn3{
+	width:300px;
+	height:100px;
+	position:absolute;
+	top:80%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background:#ffc107;
+	cursor:pointer;
+	border-radius:5px;
+	overflow:hidden;
+	background-color: rgba(0, 0, 0, 0.5);
+	
+}
+#btn3:before{
+  color: #c1f01d;
+  font-family: sans-serif;
+  content: 'Edit Student Details';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.5s;
+}
+#btn3:hover:before{
+  top: -30px;
+}
+#btn3:after{
+  font-family: 'Ionicons';
+  content: '\f127';
+  font-size: 85px;
+  color: #c1f01d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 140%;
+  transition: all 0.5s;
+}
+#btn3:hover:after{
+  top: 50%;
+}
+
+/*Right Column Row 3 View All Students Button */
+
+#btn7{
+	width:300px;
+	height:100px;
+	position:absolute;
+	top:120%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background:#ffc107;
+	cursor:pointer;
+	border-radius:5px;
+	overflow:hidden;
+	background-color: rgba(0, 0, 0, 0.5);
+	
+}
+#btn7:before{
+  color: #c1f01d;
+  font-family: sans-serif;
+  content: 'View All Students';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.5s;
+}
+#btn7:hover:before{
+  top: -30px;
+}
+#btn7:after{
+  font-family: 'Ionicons';
+  content: '\f133';
+  font-size: 96px;
+  color: #c1f01d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 140%;
+  transition: all 0.5s;
+}
+#btn7:hover:after{
+  top: 50%;
+}
+
+/*Right Column Row 4 Add Events Button */
+
+#btn8{
+	width:300px;
+	height:100px;
+	position:absolute;
+	top:100.90%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background:#ffc107;
+	cursor:pointer;
+	border-radius:5px;
+	overflow:hidden;
+	background-color: rgba(0, 0, 0, 0.5);
+	
+}
+#btn8:before{
+  color: #c1f01d;
+  font-family: sans-serif;
+  content: 'Add Events';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.5s;
+}
+#btn8:hover:before{
+  top: -30px;
+}
+#btn8:after{
+  font-family: 'Ionicons';
+  content: '\f356';
+  font-size: 80px;
+  color: #c1f01d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 140%;
+  transition: all 0.5s;
+}
+#btn8:hover:after{
+  top: 50%;
+}
+/*Background Slider */
+.load{
+	animation: slide 2s;
+}
+.slider{
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	width:0%;
+	height:100vh;
+	animation:slide 40s infinite;
+}
+.content{
+	color:#fff;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.5);
+}
+
+/*@keyframes slide{
+	0%{
+		background-image:url('../img/001.jpg');
+	}
+	20%{
+		background-image:url('../img/001.jpg');
+	}
+	20.01%{
+		background-image:url('../img/002.jpg');
+	}
+	40%{
+		background-image:url('../img/002.jpg');
+	}
+	40.01%{
+		background-image:url('../img/003.jpg');
+	}
+	60%{
+		background-image:url('../img/003.jpg');
+	}
+	60.01%{
+		background-image:url('../img/004.jpg');
+	}
+	80%{
+		background-image:url('../img/004.jpg');
+	}
+	80.01%{
+		background-image:url('../img/005.jpg');
+	}
+	100%{
+		background-image:url('../img/005.jpg');
+	}
+	
+}*/
+
+

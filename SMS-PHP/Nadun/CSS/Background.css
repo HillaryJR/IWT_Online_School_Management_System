@@ -1,0 +1,123 @@
+body {
+	
+	
+	background-image : url("../../img/reg.jpg");
+	/*background-size  : 450px 450px;*/
+	background-size : cover;
+	color: white;
+	background-attachment : fixed;
+	background-position : center;
+	background-blend-mode : screen;
+	background-repeat : no-repeat;
+	/*background-color : black;*/
+	
+	
+	
+}
+
+header {
+	
+	padding : 50px;
+	background-image : url("../../img/govt.png");
+	background-size  : 180px 160px;
+	background-repeat : no-repeat;
+	background-position : 3% 0%;
+	position : -webkit-sticky;
+	position : sticky;
+	
+}
+
+.button{
+		
+		background-color : black;
+		color : white;
+		padding : 10px 20px;
+		float : right;
+		margin-top : -80px;
+		
+}
+
+fieldset{
+	
+	margin : 10px 100px 10px 100px;
+}
+
+#topnav{
+	
+	
+	list-style-type : none;
+	background-color : red;
+	overflow : auto;
+	position : -webkit-sticky;
+	position : sticky;
+	
+	
+}
+
+
+#topnav li a {
+	
+	float: left;
+	color : white;
+	text-decoration : none;
+	display : block;
+	text-align : center;
+	padding : 16px;
+	
+}
+
+.topnav li a:hover{
+	
+	background-color : black;
+	
+	
+}
+
+
+.topnav li a:active{
+	
+	background-color : black;
+	color : black;
+	
+}
+
+
+#FullCalander{
+	
+	position : absolute;
+	top : 400px;
+	right : 10px;
+	
+}
+
+footer {
+	
+	padding: 50px;
+	float : bottom;
+	
+}
+
+
+div.stick{
+	position: -webkit-sticky;
+  position: sticky;
+  
+  
+  
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

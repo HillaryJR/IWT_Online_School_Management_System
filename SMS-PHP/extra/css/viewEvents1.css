@@ -1,0 +1,49 @@
+
+#mainD{
+	border: 2px white solid;
+	width: 75%;
+	height: 800px;
+}
+
+/*main table*/
+#mainT{
+	border: 4px black solid;
+	margin-top: 3%;
+	width: 90%;
+	height: 90%;
+	border-collapse: collapse;
+	background-color: white;
+}
+th{
+	font-size: 27px;
+	font-family: Candara;
+}
+td{
+	background-color: lightblue;
+	font-size: 20px;
+	font-family: Calibri;
+	color: black;
+
+}
+
+#editB{
+	width: 70px;
+	height: 45px;
+	background-color: green;
+	border: none;
+	border-radius: 8px;
+	font-family: Calibri;
+	font-size: 16px;
+	color: white; 
+}
+#delB{
+	width: 70px;
+	height: 45px;
+	background-color: red;
+	border: none;
+	border-radius: 8px;
+	font-family: Calibri;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+}

@@ -1,0 +1,21 @@
+body{
+                position: fixed;
+                top: 0; 
+                left: 0; 
+                background-image: url(../img/db.jpg);
+				
+                /* Preserve aspet ratio */
+                min-width: 100%;
+                min-height: 100%;
+                background-attachment: fixed;
+                background-position: center;
+			
+            } 
+#c1{
+                margin-top:30px;
+                background-color:red;
+                width:100px;
+                color:white;
+                border:none;
+                font-size: 20px;
+            }

@@ -1,0 +1,90 @@
+.main{
+	margin-top: 50px;
+	padding: 10px;
+	height: 900px;
+}
+#mainf{
+	border: 2px black solid;
+	width: 60%;
+	height: 850px;
+	padding-top: 20px;
+}
+table{
+	margin-top: 50px;
+}
+td{
+	height: 40px;
+	font-family: Calibri;
+	font-size: 20px;
+}
+.left{
+	width: 200px;
+	text-align: right;
+	padding-right: 10px;
+}
+.right{
+	width: 100px;
+	padding-right: 5px;
+	padding-left: 30px;
+}
+.name{
+	width: 300px;
+	height: 25px;
+}
+#dob{
+	height: 25px;
+	width: 200px;
+}
+#gen{
+	font-size: 15px;
+}
+select{
+	width: 100px;
+	height: 25px;
+}
+#email{
+	width: 250px;
+	height: 25px;
+}
+#pemail{
+	width: 250px;
+	height: 25px;
+}
+#nic{
+	height: 25px;
+	width: 250px;
+}
+#pNo{
+	width: 250px;
+	height: 25px;
+}
+textarea{
+	width: 250px;
+	height: 70px;
+}
+#fees{
+	width: 50px;
+}
+#btn{
+	border: 2px black solid;
+	border-top: none;
+	height: 100px;
+	padding: none;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+#addS{
+	background-color: rgb(67,150,44);
+	font-family: Calibri;
+	color: white;
+	font-size: 18px;
+	width: 150px;
+	height: 50px;
+	border-radius: 8px;
+}
+
+#addS:hover{
+	background-color: rgb(68,171,17);
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

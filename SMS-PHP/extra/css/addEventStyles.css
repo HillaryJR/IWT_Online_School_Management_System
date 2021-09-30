@@ -1,0 +1,54 @@
+/* Main Table */
+table{
+	background-color: white;
+	color: black;
+	border-collapse: collapse;
+	width: 55%;
+	height: 750px;
+	border: 5px white solid;
+}
+/* Table Heading */
+#ttitle{
+	height: 20%;
+	text-align: center;
+	font-size: 40px;
+	font-family: Candara;
+	border: 5px white solid;
+}
+
+/* Div for form */
+#formdiv{
+	height: 90%;
+	text-align: center;
+}
+
+/* Labels in the form */
+label{
+	font-family: Calibri;
+	font-size: 30px;
+}
+/* event name */
+#ename{
+	height: 35px;
+	width: 50%;
+}
+textarea{
+	width: 50%;
+	height: 200px;
+}
+
+/* Submit button */
+#evsbt{
+	background-color: rgb(67,150,44);
+	border: none;
+	font-family: Calibri;
+	color: white;
+	font-size: 20px;
+	width: 150px;
+	height: 50px;
+	border-radius: 8px;
+}
+#evsbt:hover{
+	background-color: rgb(68,171,17);
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

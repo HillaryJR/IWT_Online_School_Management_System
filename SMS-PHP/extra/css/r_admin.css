@@ -1,0 +1,175 @@
+
+		*{
+			box-sizing : border-box;
+		
+		}
+		
+		body{
+		
+					
+			background-image : url("../../img/admin.jpg");
+			/*background-size  : 450px 450px;*/
+			background-size : cover;
+			color: white;
+			background-attachment : fixed;
+			background-position : cover;
+			background-blend-mode : screen;
+			background-repeat : no-repeat;
+			/*background-color : black;*/
+	
+		
+		}
+		
+		header{
+		
+			background-color : black;
+			opacity : 0.8;
+			filter : alpha(opacity=50);
+			padding : 50px;
+			background-image : url("../../img/govt.png");
+			background-size  : 200px 200px;
+			background-repeat : no-repeat;
+			background-position : 3% 15%;
+			color : white;
+		
+		
+		}
+		
+			
+		.button{
+		
+			background-color : #ff0000;
+			color : white;
+			padding : 10px 20px;
+			float : right;
+			margin-top : -30px;
+			border-radius : 15px;
+		
+		}
+		
+		.button:hover{
+			
+			background-color : purple;
+		}
+		
+					
+			#topnav{
+				margin-top : 0px;
+				padding: 10px;
+				list-style-type : none;
+				background-color : red;
+				opacity : 0.8;
+			    filter : alpha(opacity=50);
+				overflow : auto;
+				position : -webkit-sticky;
+				position : sticky;
+				
+				
+			}
+
+
+			#topnav li a {
+				
+				float: left;
+				color : white;
+				text-decoration : none;
+				display : block;
+				text-align : center;
+				padding : 16px;
+				
+			}
+
+			.topnav li a:hover{
+				
+				background-color : black;
+				
+				
+			}
+			.topnav .crnt {
+				
+				background-color :  #000000 ;
+			
+				
+			}
+
+
+		nav{
+			margin-top : -15px;
+			float : right;
+			width : 30%;
+			height : 625px;
+			background : black;
+			opacity : 0.8;
+			filter : alpha(opacity=50);
+			padding : 20px;
+		
+		}
+		
+		article{
+			width : 70%;
+			/*background-color : black;*/
+			height : 600px;
+			color : black;
+		
+		}
+		
+		tr,td{
+			padding : 20px;
+		}
+		
+		section : after{
+		
+			content : "";
+			display : table;
+			clear : both;
+		
+		}
+		
+		footer{
+			background-color : black;
+			opacity : 0.8;
+			filter : alpha(opacity=50);
+			padding : 100px;
+			text-align : center;
+			color : white;
+			height : 25%;
+			margin-top : 10px;
+			
+		}
+		#txt{
+			
+			font-size : 15px;
+			color : white;
+			float : left;
+			/*text-decoration : underline;*/
+			
+			
+		}
+		
+		#sm{
+			
+			width : 60px;
+			height : 60px;
+			float : right;
+			padding : 5px;
+			
+		}
+		
+		#sma{
+			
+			width : 200px;
+			height : 200px;
+			
+			padding :10px;
+		}
+		
+		@media(max-width : 600px){
+		
+			nav,article{
+			
+				width : 100%;
+				height : auto;
+			
+			}
+		
+		}

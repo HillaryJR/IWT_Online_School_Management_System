@@ -1,0 +1,69 @@
+
+body{
+	
+	background-image : url("../../img/ml.jpg");
+	
+}
+
+
+/* main div element */
+#main{
+	border: 2px red solid;
+	width: 85%;
+	height: 875px;
+}
+
+/* table */
+#mainT{
+	border: 2px red solid;
+	width: 60%;
+	margin-top: 7%;
+	color: white;
+	height: 72%;
+	border-collapse: collapse;
+}
+th{
+	font-family: Candara;
+	font-size: 40px;
+	border: 2px black solid;
+	color: white;
+	background-color: rgb(6, 4, 89);
+}
+td{
+	font-family: Calibri;
+	font-size: 20px;
+	text-align: center;
+	width: 60px;
+} 
+
+/* New mark column*/
+.le{
+	width: 50px;
+	border-right: none;
+}
+.ri{
+	border-left: none;
+}
+input{
+	width: 70px;
+	height: 30px;
+}
+button{
+	width: 60px;
+	height: 30px;
+	font-family: Calibri;
+	font-size: 18px;
+	background-color: rgb(42, 209, 8);
+	color: white;
+	border: none;
+	border-radius: 8px; 
+}
+button:hover{
+	background-color: rgb(58, 240, 22);
+	box-shadow: 1px 2px rgb(173, 173, 173);
+}
+p{
+	font-family: Calibri;
+	font-size: 18px;
+	color: white;
+}

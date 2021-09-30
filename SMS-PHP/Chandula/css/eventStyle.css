@@ -1,0 +1,66 @@
+body{
+	
+	background-image : url("../../img/home.jpg");
+	
+}
+
+
+
+#main{
+	border: 10px white solid;
+	width: 45%;
+	height: 700px;
+	font-family: Candara;
+	padding-top: 50px;
+}
+#evMain{
+	border: 6px white solid;
+	border-collapse: collapse;
+	width: 450px;
+	height: 600px;
+}
+th{
+	font-family: Candara;
+	font-size: 40px;
+	height: 50px;
+	border: 6px white solid;
+}
+td{
+	text-align: center;
+	font-family: Candara;
+	font-size: 30px;
+	height: 40px;
+	padding: 10px;
+	border: none;
+}
+textarea{
+	height: 100px;
+	width: 200px;
+}
+#addE{
+	background-color: rgb(67,150,44);
+	border: none;
+	font-family: Calibri;
+	color: white;
+	font-size: 18px;
+	width: 100px;
+	height: 40px;
+	border-radius: 8px;
+}
+#addE:hover{
+	background-color: rgb(68,171,17);
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.remE{
+	background-color: red;
+	border: none;
+	font-family: Calibri;
+	color: white;
+	font-size: 18px;
+	width: 120px;
+	height: 40px;
+	border-radius: 8px;
+}
+.remE:hover{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

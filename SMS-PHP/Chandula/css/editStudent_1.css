@@ -1,0 +1,74 @@
+
+body{
+	
+	background-image : url("../../img/ml.jpg");
+	
+}
+
+/* Main div */
+
+#main{
+	border: 2px red solid;
+	width: 60%;
+	height: 800px;
+}
+
+/* Table contents */
+table{
+	color: white;
+	width: 60%;
+	height:60%;
+	margin-top: 15%;
+	border-collapse: collapse;
+	border-width: 3px;
+}
+th{
+	font-family: Candara ;
+	font-size: 40px;
+	color: white;
+	height: 80px;
+}
+td{
+	border: none;
+}
+#ent{
+	font-family: Arial;
+	font-size: 25px;
+	text-align: right;
+	padding-right: 10px;
+}
+/* table text box */
+#te{
+	padding-left: 15px;
+}
+#sid{
+	width: 90%;
+	height: 30px;
+	font-size: 20px;
+}
+
+/* submit button */
+#sbt{
+	text-align: center;
+}
+#btn{
+	width: 30%;
+	height: 40px;
+	font-family: Calibri;
+	font-size: 20px;
+	background-color: rgb(42, 209, 8);
+	color: white;
+	border: none;
+	border-radius: 8px; 
+}
+#btn:hover{
+	background-color: rgb(58, 240, 22);
+	box-shadow: 1px 2px rgb(173, 173, 173);
+}
+
+p{
+	color: red;
+	font-family: Calibri;
+	font-size: 20px;
+	text-align: center;
+}

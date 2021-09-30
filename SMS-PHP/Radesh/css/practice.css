@@ -1,0 +1,71 @@
+body{
+	background-image : url("../images/background3.jpg");
+	background-size : cover;
+}
+
+hr{
+	border-top : 5px solid black;
+}
+
+#topnav{
+	list-style-type : none;
+	background-color : #4ac40e;
+	overflow : hidden;
+}
+
+#topnav li a{
+	float : left;
+	color : white;
+	text-decoration : none;
+	display : block;
+	text-align : center;
+	padding : 16px;
+}
+
+#topnav li a:hover{
+	background-color :#555;
+	color : white;
+}
+
+.productdata{
+	background-color : #99a3a4 ;
+	margin-top : 15px;
+	margin-right : 10px;
+	margin-bottom : 10px;
+	margin-left : 20px;
+	
+	border-style : groove;
+	border-color : red;
+	padding : 3px;
+}
+
+footer{
+	color : white;
+	text-align : center;
+}
+
+footer a{
+	color : #e9db08;
+	text-decoration : none;
+	font-size : 30px;
+}
+
+div ul,ol,th{
+	background-image : url("../images/background1.jpg");
+	background-size : cover;
+}
+
+ul li ::firs-letter{
+	font-size : 20px;
+	font-style : italic;
+	color : white;
+}
+
+a:active{
+	color : #f5e708;
+}
+
+button{
+	padding : 15px;
+	background-color :  #3188e5 ;
+}

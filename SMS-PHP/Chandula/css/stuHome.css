@@ -1,0 +1,79 @@
+hr{
+    height: 3px;
+    background-color: black;
+}
+
+#d1{
+	width: 950px;
+	height: 450px;
+	float: left;
+}
+#d2{	
+	width: 525px;
+	height: 450px;
+	border: 1px black solid;
+	float: left;
+}
+
+#sbtn{
+	width: 90%;
+	height: 60%;
+	margin-top: 100px;
+}
+#btnAdd{
+	height: 100px;
+	width: 300px;
+	border: 2px white solid;
+	padding-top: 20px;
+	font-family: Candara;
+	font-size: 40px;
+	background-color: rgb(48,204,45);
+	color: white;
+	border-radius: 10px;
+}
+#btnAdd:hover{
+	background-color: rgb(16,242,12);
+}
+#btnSub{
+	height: 100px;
+	width: 300px;
+	border: 2px white solid;
+	padding-top: 20px;
+	font-family: Candara;
+	font-size: 40px;
+	background-color: rgb(48,204,45);
+	color: white;
+	border-radius: 10px;
+}
+#btnSub:hover{
+	background-color: rgb(16,242,12);
+}
+#btnT{
+	height: 100px;
+	width: 300px;
+	border: 2px white solid;
+	padding-top: 20px;
+	font-family: Candara;
+	font-size: 40px;
+	background-color: rgb(48,204,45);
+	color: white;
+	border-radius: 10px;
+}
+#btnT:hover{
+	background-color: rgb(16,242,12);
+}
+#btnCon{
+	height: 100px;
+	width: 300px;
+	border: 2px white solid;
+	padding-top: 20px;
+	font-family: Candara;
+	font-size: 40px;
+	background-color: rgb(48,204,45);
+	color: white;
+	border-radius: 10px;
+}
+#btnCon:hover{
+	background-color: rgb(16,242,12);
+}
+

@@ -1,0 +1,274 @@
+
+		*{
+			box-sizing : border-box;
+		
+		}
+		
+		body{
+		
+					
+			background-image : url("../../img/home2.jpg");
+			/*background-size  : 450px 450px;*/
+			background-size : cover;
+			color: white;
+			background-attachment : fixed;
+			background-position : cover;
+			background-blend-mode : screen;
+			background-repeat : no-repeat;
+			/*background-color : black;*/
+	
+		
+		}
+		
+		header{
+		
+			/*background-color : #000080;
+			padding : 50px;
+			background-image : url("../../Nadun/CSS/img/govt.png");
+			background-size  : 180px 165px;
+			background-repeat : no-repeat;
+			background-position : 3% 15%;
+			color : black; */
+			
+			background-color : black;
+			opacity : 0.8;
+			filter : alpha(opacity=50);
+			padding : 50px;
+			background-image : url("../../Nadun/CSS/img/govt.png");
+			background-size  : 180px 180px;
+			background-repeat : no-repeat;
+			background-position : 3% 15%;
+			color : white;
+			
+		
+		}
+		
+			
+		.button{
+		
+			background-color : #ff0000;
+			color : white;
+			/*padding : 10px 20px;*/
+			float : right;
+			margin-top : -90px;
+			border-radius : 15px;
+			height : 50px;
+			width : 100px;
+		
+		}
+		
+		.button:hover{
+			
+			background-color : purple;
+		}
+		
+					
+			#topnav{
+				
+				
+				/*list-style-type : none;
+				background-color : red;
+				overflow : auto;
+				position : -webkit-sticky;
+				position : sticky;*/
+				
+				margin-top : 0px;
+				padding: 10px;
+				list-style-type : none;
+				background-color : red;
+				opacity : 0.8;
+			    filter : alpha(opacity=50);
+				overflow : auto;
+				position : -webkit-sticky;
+				position : sticky;
+				
+				
+			}
+
+
+			#topnav li a {
+				
+				float: left;
+				color : white;
+				text-decoration : none;
+				display : block;
+				text-align : center;
+				padding : 16px;
+				
+			}
+
+			.topnav li a:hover{
+				
+				background-color : black;
+				
+				
+			}
+			.topnav .crnt {
+				
+				background-color :  #000000 ;
+			
+				
+			}
+
+
+		#FullCalendar{
+		
+			margin-top : 710px;
+			float : right;
+			width : 30%;
+			height : 300px;
+			background : black;
+			opacity : 0.8;
+			filter : alpha(opacity=50);
+			padding : 20px;
+		
+		}
+		
+		article{
+			
+			margin-top : -34px;
+			
+			
+			width : 102%;
+			/*background-color : black;*/
+			height : 2000px;
+		
+		}
+		
+				/*Background Slider */
+		.load{
+			animation: slide 2s;
+		}
+		.slider{
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-position:center;
+			width:98%;
+			height:100vh;
+			animation:slide 40s infinite;
+		}
+		.content{
+			color:#fff;
+			width:0%;
+			height:100%;
+			background-color:rgba(0,0,0,0.5);
+		}
+
+		@keyframes slide{
+			0%{
+				background-image:url('../../img/govt.jpeg');
+			}
+			20%{
+				background-image:url('../../img/welcom.jpeg');
+			}
+			30%{
+				background-image:url('../../img/003.jpg');
+			}
+			40%{
+				background-image:url('../../img/004.jpg');
+			}
+			50%{
+				background-image:url('../../img/005.jpg');
+			}
+			60%{
+				background-image:url('../../img/home1.jpg');
+			}
+			70%{
+				background-image:url('../../img/gsc.jpg');
+			}
+			80%{
+				background-image:url('../../img/home3.jpg');
+			}
+			90%{
+				background-image:url('../../img/home4.png');
+			}
+			100%{
+				background-image:url('../../img/govt.jpeg');
+			}
+			
+		}
+		
+		section : after{
+		
+			content : "";
+			display : table;
+			clear : both;
+		
+		}
+		
+		.container{
+			
+			position : relative;
+			left : 180px;
+			
+			top : 10px;
+			
+			
+		}
+		
+		
+		
+		.container .content{
+			
+			position : absolute;
+			bottom : 0px;
+			right : 430px;
+			background : rgb(0,0,0);
+			background : rgb(0,0,0,0.9);
+			color: white;
+			width : 500px;
+			padding : 20;
+			height : 100px;
+			
+			
+		}
+		
+		
+		footer{
+			background-color : black;
+			opacity : 0.8;
+			filter : alpha(opacity=50);
+			padding : 70px;
+			text-align : center;
+			color : white;
+			height : 25%;
+			
+			
+		}
+		#txt{
+			
+			font-size : 15px;
+			color : white;
+			float : left;
+			text-decoration : underline;
+			
+			
+		}
+		
+		#sm{
+			
+			width : 60px;
+			height : 60px;
+			float : right;
+			padding : 5px;
+			
+		}
+		
+		#sma{
+			
+			width : 200px;
+			height : 200px;
+			
+			padding :10px;
+		}
+		
+		@media(max-width : 600px){
+		
+			nav,article{
+			
+				width : 100%;
+				height : auto;
+			
+			}
+		
+		}

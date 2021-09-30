@@ -1,0 +1,67 @@
+
+body{
+	
+	background-image : url("../../img/001.jpg");
+	
+}
+
+
+
+/* Main div element */
+#main{
+	border: 2px black solid;
+	width: 90%;
+	height: 900px;
+	padding: 50px;
+}
+
+/* Table */
+table{
+	width: 500px;
+	height: 650px;
+	color: white;
+	border-collapse: collapse;
+	background-color : black;
+	opacity : 0.8;
+	filter : alpha(opacity=50);
+}
+th{
+	font-family: Candara;
+	font-size: 30px;
+	border: 3px black solid;
+}
+td{
+	font-size: 20px;
+	font-family: Berlin Sans FB;
+	text-align: center;
+}
+/* Left column */
+.le{
+	padding-left: 50px;
+}
+.ri{
+	padding-left: 10px;
+}
+
+/* Total and Average buttons */
+button{
+	width: 80px;
+	height: 40px;
+	background-color: red;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	font-family: Calibri;
+	font-size: 17px;
+}
+button:hover{
+	background-color: rgb(191, 16, 4);
+}
+
+/* Results of calculations */
+p{
+	font-size: 25px;
+	font-family: Calibri;
+	color: white;
+	background-color : red;
+}

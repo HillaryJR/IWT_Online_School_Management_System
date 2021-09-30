@@ -1,0 +1,70 @@
+body{
+	margin:0px 50px;
+	padding:0;
+	background: url(../img/db.jpg);
+	background-size:cover;
+	
+}
+header{
+		
+	padding : 40px;
+	background-image : url("../img/govt.png");
+	background-size  : 180px 165px;
+	background-repeat : no-repeat;
+	background-position : 3% 15%;
+}	
+
+h1{
+	font-size: 40px;
+	text-align: center;
+	color: #c1f01d;
+	text-transform:uppercase;
+}
+
+h2{
+	font-size: 35px;
+	text-align: center;
+	color: Black;
+	text-transform:uppercase;
+	color:#c1f01d;
+}
+
+h3{
+	font-family: sans-serif;
+	font-size: 30px;
+	text-align: center;
+	color: black;
+	padding:15px;
+	color:#c1f01d;
+}
+
+h4{
+	font-family: sans-serif;
+	font-size: 25px;
+	text-align: auto;
+	color: #c1f01d;
+}
+
+.left{
+	float:left;
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: left;
+	margin-right:50px;
+}
+.right{
+	float:left;
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: left;
+	margin-right:50px;
+}
+section li a{
+	color:white;
+	text-decoration:none;
+	display:block;
+	text-align:left;
+}
+
+
+

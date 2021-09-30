@@ -1,0 +1,32 @@
+#logo{
+	width: 100px;
+	height: 125px;
+	border: 2px black solid;
+	padding: 5px;
+	float: right;
+}
+
+#heading{
+	width: 1000px;
+	height: 100px;
+}
+
+#hea{
+	font-family: Candara;
+	padding-left: 300px;
+	font-size: 75px;
+}
+ 
+ul{
+	list-style-type: none;
+}
+
+li a:hover{
+	background-image: linear-gradient(to bottom right, rgb(7,82,66), rgb(97,184,165));
+}
+
+#login{
+	padding-left:100px; 
+	width:200px;
+	padding-right:0px;
+}

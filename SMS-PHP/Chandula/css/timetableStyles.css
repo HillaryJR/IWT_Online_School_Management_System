@@ -1,0 +1,140 @@
+body{
+	
+	background-image : url("../images/s1.jpg");
+}
+
+
+#topnav{
+				margin-top : 0px;
+				padding: 30px;
+				list-style-type : none;
+				background-color : red;
+				opacity : 0.8;
+			    filter : alpha(opacity=50);
+				overflow : hidden;
+				position : -webkit-sticky;
+				position : sticky;
+				
+				
+			}
+
+
+			#topnav li a {
+				
+				float: left;
+				color : white;
+				text-decoration : none;
+				display : block;
+				text-align : center;
+				padding : 16px;
+				
+			}
+
+			.topnav li a:hover{
+				
+				background-color : black;
+				
+				
+			}
+			.topnav .crnt {
+				
+				background-color :  #000000 ;
+			
+				
+			}
+
+			
+		footer{
+			background-color : black;
+			opacity : 0.8;
+			filter : alpha(opacity=50);
+			padding : 100px;
+			text-align : center;
+			color : white;
+			height : 25%;
+			margin-top : 10px;
+			
+		}
+		#txt{
+			
+			font-size : 15px;
+			color : white;
+			float : left;
+			/*text-decoration : underline;*/
+			
+			
+		}
+		
+		#sm{
+			
+			width : 60px;
+			height : 60px;
+			float : right;
+			padding : 5px;
+			
+		}
+		
+		#sma{
+			
+			width : 200px;
+			height : 200px;
+			
+			padding :10px;
+		}
+		
+		@media(max-width : 600px){
+		
+			nav,article{
+			
+				width : 100%;
+				height : auto;
+			
+			}
+		
+		}
+		
+		/* Main Div element */
+		#main{
+			border: 2px black solid;
+			width: 80%;
+			height: 700px;
+		}
+		
+		/* Heading */
+		h1{
+			font-size: 50px;
+			font-family: Candara;
+			
+		}
+		
+		/* Table */
+		table{
+			
+			background-color : black;
+			opacity : 0.9;
+			filter : alpha(opacity=50);
+			color : white;
+			
+		}
+		#time{
+			border-collapse: collapse;
+			text-align: center;
+		}
+		th{
+			font-size: 25px;
+			font-family: Candara;
+			padding: 10px;
+		}
+		td{
+			font-size: 18px;
+			padding: 10px;
+			font-family: Calibri;
+		}
+		#lunch{
+			font-size: 20px;
+			font-weight: bolder;
+		}
+		
+		
+		
+	
